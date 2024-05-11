@@ -30,6 +30,8 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final ConnectivityController connectivityController = Get.put(ConnectivityController());
 
+
+    
     return DefaultTabController(
       length: 3,
       child: Scaffold(
